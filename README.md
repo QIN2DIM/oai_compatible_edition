@@ -39,3 +39,10 @@ uv run main.py
 Add model in your Dify workspace:
 
 ![image-20250318150556362](assets/image-20250318150556362.png)
+
+
+Package plugin:
+
+```bash
+./dify-plugin-windows-amd64.exe plugin package ../oai_compatible_edition
+```
