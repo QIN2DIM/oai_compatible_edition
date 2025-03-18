@@ -6,6 +6,8 @@ This plugin provides access to models that are OpenAI-compatible, including LLMs
 
 ![image-20250318150648383](assets/image-20250318150648383.png)
 
+![img.png](img.png)
+
 ## Development Guide
 
 Fill in the Dify plugin debugging configuration, [Related Documentation](https://docs.dify.ai/plugins/quick-start/develop-plugins/debug-plugin)
