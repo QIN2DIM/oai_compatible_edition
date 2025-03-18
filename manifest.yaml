@@ -1,0 +1,31 @@
+version: 0.0.8
+type: plugin
+author: "qin2dim"
+name: "oai_compatible_edition"
+description:
+  en_US: OpenAI API Compatible Pioneer Edition
+  zh_Hans: OpenAI API Compatible 先锋版
+label:
+  en_US: "OAI-Compatible-Edition"
+created_at: "2025-03-14T08:03:44.658609186Z"
+icon: icon.svg
+resource:
+  memory: 3048576
+  permission:
+    tool:
+      enabled: true
+    model:
+      enabled: true
+      llm: true
+plugins:
+  models:
+    - "provider/openai_api_compatible.yaml"
+meta:
+  version: 0.0.1
+  arch:
+    - "amd64"
+    - "arm64"
+  runner:
+    language: "python"
+    version: "3.12"
+    entrypoint: "main"
